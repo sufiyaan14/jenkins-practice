@@ -7,6 +7,7 @@ pipeline {
                 sh '''
                 mkdir -p message
                 echo 'Hello from Jenkins!' > message/output.txt
+                echo 'Hello from Github!' >> message/output.txt
                 '''
             }
         }
